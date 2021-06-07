@@ -44,9 +44,16 @@ This is a Java project(Core + Advance) in which a user can register himself/hers
 
 ## Screenshot
 
+#### Home page
 <img src="https://github.com/Sayan9696/Online-Examination-System-using-Adjava/blob/master/screenshot1.jpg">
+
+#### Question set
 <img src="https://github.com/Sayan9696/Online-Examination-System-using-Adjava/blob/master/screenshot2.jpg">
+
+#### Authentication Page
 <img src="https://github.com/Sayan9696/Online-Examination-System-using-Adjava/blob/master/screenshot3.jpg">
+
+#### Exam panel
 <img src="https://github.com/Sayan9696/Online-Examination-System-using-Adjava/blob/master/screenshot4.jpg">
 
 ## Developed by
