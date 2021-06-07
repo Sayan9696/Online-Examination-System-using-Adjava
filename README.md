@@ -42,6 +42,13 @@ This is a Java project(Core + Advance) in which a user can register himself/hers
 
 6. Browser(Chrome)
 
+## Screenshot
+
+<img src="https://github.com/Sayan9696/Online-Examination-System-using-Adjava/blob/master/screenshot1.jpg">
+<img src="https://github.com/Sayan9696/Online-Examination-System-using-Adjava/blob/master/screenshot2.jpg">
+<img src="https://github.com/Sayan9696/Online-Examination-System-using-Adjava/blob/master/screenshot3.jpg">
+<img src="https://github.com/Sayan9696/Online-Examination-System-using-Adjava/blob/master/screenshot4.jpg">
+
 ## Developed by
 
 1. Sayan Paul
