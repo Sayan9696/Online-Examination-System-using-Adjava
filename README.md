@@ -16,6 +16,7 @@ This is a Java project(Core + Advance) in which a user can register himself/hers
 1. ADVANCE JAVA
 
 ### Front-end
+
 1. HTML
 
 2. CSS3
@@ -25,11 +26,13 @@ This is a Java project(Core + Advance) in which a user can register himself/hers
 4. BOOTSTRAP
 
 ## Hardwares Used
+
 1. Intel 1.5 ghz
 2. 2 GB RAM
 3. 10 GB HDD Space
 
 ## Softwares Used
+
 1. Windows
 
 2. JAVA 8
