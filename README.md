@@ -18,9 +18,9 @@ This is a Java project(Core + Advance) in which a user can register himself/hers
 ### Front-end
 1. HTML
 
-2. CSS
+2. CSS3
 
-3. JS
+3. JavaScript
 
 4. BOOTSTRAP
 
