@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>SignUp form</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(".btn").click(function(){
+				$(".input, .text-area").val(" ");
+			});
+		});
+	</script>
+	<style>
+.button {
+  background-color:#ffbf00;
+  border: none;
+  color: white;
+  padding: 16px 50px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover {opacity: 1}
+</style>
+	<link rel="stylesheet" href="stylesF.css">
+</head>
+<body>
+
+<div class="wrapper">
+		<div class="contact-form">
+			
+<form action="AdloginSign.jsp">
+			<div class="input-fields">
+					<div class="items">
+					<div class="title">Registration form</div>
+						
+					<div class="items">
+						<label for="email" class="label">enter name:</label>
+						<input type="text" id="c" name="cname" placeholder="enter name" class="input">
+					</div>
+					<div class="items">
+						<label for="subject" class="label">enter password</label>
+						<input type="password" id="pw" name="pw" placeholder="enter questions" class="input">
+					</div>
+					<div class="items">
+						<label for="msg" class="label">enter phn no</label>
+						<input type="text" id="p" name="ph" placeholder="enter answer" class="input">
+					</div>
+					<div class="items">
+						<label for="msg" class="label">enter mailid</label>
+						<input type="text" id="m" name="ml" placeholder="enter option1" class="input">
+					</div>
+				
+			</div>
+			<div align="center">	
+			<input type="submit"  class="button" value="submit" onclick="age()">
+			</div>
+	</form>	</div>
+</div>	
+	
+</body>
+</html>

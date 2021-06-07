@@ -1,0 +1,123 @@
+-- This CLP file was created using DB2LOOK Version "9.7" 
+-- Timestamp: 28/11/2019 16:19:32
+-- Database Name: ONES           
+-- Database Manager Version: DB2/NT Version 9.7.0          
+-- Database Codepage: 1252
+-- Database Collating Sequence is: UNIQUE
+
+
+CONNECT TO ONES;
+
+
+
+-- Mimic tablespace
+
+ALTER TABLESPACE SYSCATSPACE
+      PREFETCHSIZE AUTOMATIC
+      OVERHEAD 7.500000
+      NO FILE SYSTEM CACHING 
+      TRANSFERRATE 0.060000;
+
+
+ALTER TABLESPACE TEMPSPACE1
+      PREFETCHSIZE AUTOMATIC
+      OVERHEAD 7.500000
+      FILE SYSTEM CACHING 
+      TRANSFERRATE 0.060000;
+
+
+ALTER TABLESPACE USERSPACE1
+      PREFETCHSIZE AUTOMATIC
+      OVERHEAD 7.500000
+      NO FILE SYSTEM CACHING 
+      TRANSFERRATE 0.060000;
+
+
+
+
+------------------------------------------------
+-- DDL Statements for table "LAPTOP  "."QUES"
+------------------------------------------------
+ 
+
+CREATE TABLE "LAPTOP  "."QUES"  (
+		  "FID" INTEGER , 
+		  "FNAME" VARCHAR(30) NOT NULL , 
+		  "QUESTION" VARCHAR(1000) , 
+		  "OP1" VARCHAR(300) , 
+		  "OP2" VARCHAR(300) , 
+		  "ANS" VARCHAR(300) , 
+		  "QID" INTEGER )   
+		 IN "USERSPACE1" ; 
+
+
+
+
+
+
+------------------------------------------------
+-- DDL Statements for table "LAPTOP  "."NOTICE"
+------------------------------------------------
+ 
+
+CREATE TABLE "LAPTOP  "."NOTICE"  (
+		  "ID" INTEGER NOT NULL , 
+		  "SUB" VARCHAR(100) , 
+		  "P2" VARCHAR(100) , 
+		  "P3" VARCHAR(100) )   
+		 IN "USERSPACE1" ; 
+
+
+
+
+
+
+------------------------------------------------
+-- DDL Statements for table "LAPTOP  "."STUD"
+------------------------------------------------
+ 
+
+CREATE TABLE "LAPTOP  "."STUD"  (
+		  "ID" INTEGER NOT NULL , 
+		  "NAME" VARCHAR(30) , 
+		  "PASS" VARCHAR(10) , 
+		  "PHN" VARCHAR(10) , 
+		  "MAILID" VARCHAR(30) , 
+		  "MARKS" INTEGER , 
+		  "MARKS1" INTEGER , 
+		  "MARKS2" INTEGER )   
+		 IN "USERSPACE1" ; 
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------
+-- Authorization statement on table space 
+---------------------------------------
+
+ 
+GRANT USE OF TABLESPACE "SYSTOOLSTMPSPACE" TO  PUBLIC   ;
+
+COMMIT WORK;
+
+CONNECT RESET;
+
+TERMINATE;
+
+-- Specified SCHEMA is: LAPTOP
+-- Creating DDL for table(s)
+
+-- Schema name is ignored for the Federated Section
+-- Binding package automatically ... 
+-- Bind is successful
+-- Binding package automatically ... 
+-- Bind is successful
+;

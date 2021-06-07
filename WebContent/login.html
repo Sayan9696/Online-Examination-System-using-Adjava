@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>Login Form Design</title>
+    <link rel="stylesheet" type="text/css" href="style.css"></head>
+<body>
+    <div class="loginbox">
+    <img src="avatar.png" class="avatar">
+        <h1>Login Here</h1>
+        <form action="Adindex.jsp">
+            <p>Username</p>
+            <input type="text" id="id" name="id" placeholder="Enter Username">
+            <p>Password</p>
+            <input type="password" id="pw" name="pw" placeholder="Enter Password">
+            <input type="submit" name="" value="Login" onclick="age()">
+            <a href="adSign.html">Don't have an account?</a>
+        </form>
+        
+    </div>
+
+</body>
+
+
+<script>
+function age(){
+	var x=document.getElementById("id").value;
+	
+	if(x==""){
+		alert("please enter id");
+		return false}	
+	var y=document.getElementById("pw").value;
+	
+	if(y==""){
+		alert("please enter password");
+		return false}	
+		
+
+}
+</script>
+</html>

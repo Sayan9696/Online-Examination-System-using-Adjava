@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Notice Board</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(".btn").click(function(){
+				$(".input, .text-area").val(" ");
+			});
+		});
+	</script>
+	<style>
+.button {
+  background-color:#ffbf00;
+  border: none;
+  color: white;
+  padding: 16px 50px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover {opacity: 1}
+</style>
+	<link rel="stylesheet" href="stylesF.css">
+</head>
+<body>
+
+<div class="wrapper">
+		<div class="contact-form">
+			
+<form action="NTStore.jsp">
+			<div class="input-fields">
+					<div class="items">
+				
+					<label for="name" class="label"><h1><b><center>Notice Board form</center></b></h1></label>
+						<label for="name" class="label">enter Your Name:</label>
+						<input type="text" id="i" name="id" placeholder="enter name" class="input">
+					</div>
+					<div class="items">
+						<label for="email" class="label">enter Para1:</label>
+						<input type="text" id="c" name="cname" placeholder="enter name" class="input">
+					</div>
+					<div class="items">
+						<label for="subject" class="label">para2:</label>
+						
+						<textarea id="msg" name="pw" class="text-area"></textarea>
+					</div>
+					
+					
+			</div>
+			<div align="center">	
+			<input type="submit"  class="button" value="submit" onclick="age()">
+			</div>
+	</form>	</div>
+</div>	
+	
+</body>
+</html>

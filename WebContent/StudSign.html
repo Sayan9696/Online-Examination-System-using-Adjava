@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<form action="StSignUp.jsp">
+  
+  <h1><font color="black"><center><b><u>Signup<u></b></center></font></h1>
+
+  <p>enter name:<input type="text" id="c" name="cname" placeholder="enter name"></p>
+  <p>enter password:<input type="text" id="pw" name="pw" placeholder="enter password"></p>
+  <p>enter phn no:<input type="text" id="p" name="ph" placeholder="enter phnno"></p>
+  <p>enter mailid:<input type="text" id="m" name="ml" placeholder="enter mailid"></p>
+  <p>enter address:<input type="text" id="a" name="addr" placeholder="enter address"></p>
+<input type="submit"  value="submit" onclick="age()">
+</font>
+</form>
+
+    <script>
+function age(){
+	
+
+
+	
+
+	var c=document.getElementById("c").value;
+	
+	if(c==""){
+		alert("please enter name");
+	return false	
+	}
+	else
+	{
+		var letters=/^[a-zA-z ]+$/;
+		if(c.match(letters))
+			{
+			
+			}
+		else
+			{
+			alert("please enter only character in name section");
+			return false}
+		
+	}
+	
+	
+var pw=document.getElementById("pw").value;
+	
+	if(pw==""){
+		alert("please enter password");
+	return false	
+	}	
+	
+	
+	
+	var ph=document.getElementById("p").value;
+	if(ph==""){
+		alert("please enter phn no");
+	return false	}	
+	else
+		{
+		var n=ph.length;
+		var letters=/^[0-9]+$/;
+		if(ph.match(letters))
+			{
+			if(n<10){
+				alert("please enter 10 digit number in phnno section");
+			return false}
+		
+						}
+		else
+			{
+			alert("please enter only number in phnno section");
+			return false}
+		
+		}
+
+var m=document.getElementById("m").value;
+	
+	if(m==""){
+		alert("please enter mail id");
+		return false}
+	else
+		{
+		if((m.indexOf("@"))<0)
+			alert("mail is incorrect");return false
+		}
+	
+	
+	
+}
+	
+</script>
+
+
+</body>
+</html>

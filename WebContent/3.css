@@ -1,0 +1,32 @@
+body {
+
+	background-image: url(4.jpg);
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+	font-weight:demibold;
+	margin:0;
+
+	padding:0;
+
+	text-align:left;
+
+	background-position:center;
+
+	color:#000;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    margin: 50px 0 0;
+    color: #000;
+}
+h3 {
+    text-align: left;
+    font-family: 'Oswald', cambria;
+    font-size: 30px;
+	font-weight:bold;
+    margin: 50px 0 0;
+    color: #000;
+}
